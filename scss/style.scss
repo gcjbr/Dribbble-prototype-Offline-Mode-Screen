@@ -1,0 +1,179 @@
+// Fonts
+
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,600,200,300,500,700,800);
+
+$f-titles: "Dosis", condesed;
+
+// Color variables
+
+$c-orange: #feaf53;
+$c-gray--light: #efefef;
+$c-gray--dark: #5c5961;
+$c-red: #D84541;
+
+// Columns positioning and sizes
+
+$c-margin: 0;
+$left-w: 450px;
+$right-w: 350px;
+$mes-w: $left-w + $right-w;
+$mes-h: 700px;
+
+
+// Button
+$s-button: 100px;
+$s-button-t: $s-button/2;
+$m-button-l: $left-w/2 - $s-button/2;
+$m-button-t: - $s-button/2;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $c-orange;
+  padding: 40px;
+  font-family: $f-titles;  
+}
+
+a {
+  color: $c-red;
+
+}
+
+.message {
+  width: $mes-w;
+  height: $mes-h;
+  border-radius: 30px;
+  margin:auto;
+  box-shadow: 0px 17px 22px 6px   rgba(0, 0, 0, 0.30);
+}
+
+.l {
+    width: $left-w;
+    height: 100%; 
+    background-color: #FFF;
+    border-radius: 30px 0 0 30px;
+        float: left;
+
+  
+  .txt {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+      text-align: center;
+
+  }
+}
+ .button {
+    
+    width: $s-button;
+    height: $s-button;
+    background:$c-red;
+    position:relative;
+    border-radius:50%;
+    top: $m-button-t;
+    left: $m-button-l;
+    vertical-align: middle;
+    display:inline-block;
+    float: left;
+   
+   a {
+     color: white;
+     text-decoration: none; 
+     
+     &:hover {
+       font-size: $s-button;
+       transition: .5s;
+     }
+   }
+   
+
+    span {
+      display:inline-block;
+      height: 100%;
+      width: 100%;
+      vertical-align: middle;
+      color:white;
+      text-align:center;
+      font-size: $s-button-t;
+      line-height: $s-button;
+      font-weight: 800;
+   }
+  }
+
+
+.r {
+    width: $right-w;
+    height: 100%; 
+    background-color: $c-gray--dark;
+    border-radius: 0 30px 30px 0;
+    float: left;
+  
+  .txt {
+    color: white;
+    width: 70%;
+    margin-left:40px;
+    
+  }
+}
+
+
+h1 {
+  font-weight: 500;
+  font-align: center;
+  font-size: 50px;
+  padding: 0;
+  margin:0;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 38px;
+}
+
+.txt {
+  
+ 
+  p {
+    font-size: 20px;
+    font-weight:500;
+  }
+  
+  margin-top: $s-button;
+}
+
+
+strong {
+ font-weight: 800;
+}
+
+ul.terminals {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -40px;
+  
+  li {
+    margin-bottom: 24px;
+    text-ident: -1.4em;
+    
+    &:before {
+      content:"\f041";
+      font-family: FontAwesome;
+      color: #444;
+      margin-right: 12px;
+      font-size: 28px;
+      float: left;
+    	width: 1em;
+
+    }
+  }
+}
+
+.credit p{
+  margin-top: 60px;
+  font-size: 16px;
+  
+}
