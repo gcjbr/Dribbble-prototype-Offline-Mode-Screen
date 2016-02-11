@@ -53,7 +53,8 @@ a {
 }
 .button a:hover {
   font-size: 100px;
-  transition: .5s;
+  -webkit-transition: .5s;
+          transition: .5s;
 }
 .button span {
   display: inline-block;
