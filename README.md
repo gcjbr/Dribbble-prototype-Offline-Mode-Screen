@@ -1,7 +1,7 @@
 # Dribble project mockup
 ## Offline Mode Screen
 
-This is a study based on the original mockup by [Alterplay]{https://dribbble.com/shots/2504215-Offline-Mode-Screen}
+This is a study based on the original mockup by [Alterplay](https://dribbble.com/shots/2504215-Offline-Mode-Screen)
 
 
 [See it at Codepen](http://codepen.io/souljacker/pen/GoYbGq)
